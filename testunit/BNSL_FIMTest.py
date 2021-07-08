@@ -64,36 +64,36 @@ class BNSL_FIMTest(BNSLFIM_Estimate):
 
 class BNSL_FIMTestAsia(BNSL_FIMTest):
     def __init__(self, sample_size):
-        super(BNSL_FIMTestAsia, self).__init__("/home/lxy/code/PrivateProtect_BN/data/asia.bif", "/home/lxy/code/PrivateProtect_BN/data/asia.csv", sample_size)
+        super(BNSL_FIMTestAsia, self).__init__("../data/asia.bif", "../data/asia.csv", sample_size)
         self.min_s = 0.75
         self.min_c = 0.95
     
 class BNSL_FIMTestSachs(BNSL_FIMTest):
     def __init__(self, sample_size):
-        super(BNSL_FIMTestSachs, self).__init__("/home/lxy/code/PrivateProtect_BN/data/sachs.bif", "/home/lxy/code/PrivateProtect_BN/data/sachs.csv", sample_size)
+        super(BNSL_FIMTestSachs, self).__init__("../data/sachs.bif", "../data/sachs.csv", sample_size)
         self.min_s = 0.6
         self.min_c = 0.9
 
 class BNSL_FIMTestAlarm(BNSL_FIMTest):
     def __init__(self, sample_size):
-        super(BNSL_FIMTestAlarm, self).__init__("/home/lxy/code/PrivateProtect_BN/data/alarm.bif", "/home/lxy/code/PrivateProtect_BN/data/alarm.csv", sample_size)
+        super(BNSL_FIMTestAlarm, self).__init__("../data/alarm.bif", "../data/alarm.csv", sample_size)
         self.min_s = 0.95
         self.min_c = 0.99
 
 class BNSL_FIMTestInsurance(BNSL_FIMTest):
     def __init__(self, sample_size):
-        super(BNSL_FIMTestInsurance, self).__init__("/home/lxy/code/PrivateProtect_BN/data/insurance.bif", "/home/lxy/code/PrivateProtect_BN/data/insurance.csv", sample_size)
+        super(BNSL_FIMTestInsurance, self).__init__("../data/insurance.bif", "../data/insurance.csv", sample_size)
         self.min_s = 0.75
         self.min_c = 0.98
 
 class BNSL_FIMTestHepar2(BNSL_FIMTest):
     def __init__(self, sample_size):
-        super(BNSL_FIMTestHepar2, self).__init__("/home/lxy/code/PrivateProtect_BN/data/hepar2.bif", "/home/lxy/code/PrivateProtect_BN/data/hepar2.csv", sample_size)
+        super(BNSL_FIMTestHepar2, self).__init__("../data/hepar2.bif", "../data/hepar2.csv", sample_size)
         self.min_s = 0.97
         self.min_c = 0.99
 
 class BNSL_FIMTestHailfinder(BNSL_FIMTest):
     def __init__(self, sample_size):
-        super(BNSL_FIMTestHailfinder, self).__init__("/home/lxy/code/PrivateProtect_BN/data/hailfinder.bif", "/home/lxy/code/PrivateProtect_BN/data/hailfinder.csv", sample_size)
+        super(BNSL_FIMTestHailfinder, self).__init__("../data/hailfinder.bif", "../data/hailfinder.csv", sample_size)
         self.min_s = 0.7
         self.min_c = 0.9
